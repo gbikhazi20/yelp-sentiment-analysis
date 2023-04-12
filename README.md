@@ -30,7 +30,7 @@ For the purposes of this analysis, the only feature column used was text. This f
 
 The following chart displays review frequencies for each category on a randomly sampled subset of the dataset of 50,000 samples (`data/yelp_academic_dataset_review_50k.txt`). As you can see, there are significantly more 5 star reviews than any other category. 
 
-<div align=center><img src='./figures/review_distributions.png' width="500"></div>
+<div align=center><img src='./figures/review_distribution.png' width="500"></div>
 
 The neural models were trained on subsets of the entire dataset, so they might experience some bias as a result of the skewed distribution. The statistical models, not needing as much data, were trained on subsets of `data/yelp_academic_dataset_review_50k.txt`. Some of these subsets were built out using the `build_subset()` function which is able to produce versions of the dataset with balanced review frequencies for each category.
 
