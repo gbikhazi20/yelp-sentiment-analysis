@@ -1,3 +1,6 @@
+# inspired by https://github.com/bentrevett/pytorch-sentiment-analysis
+
+
 import functools
 import sys
 
