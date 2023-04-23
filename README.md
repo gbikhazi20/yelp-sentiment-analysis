@@ -60,7 +60,7 @@ Results for predicting between 1 and 5 stars (2, 3, 4 star reviews not included)
 
 
 
-* Naive Bayes Bag-of-Words: 		    71.72% test accuracy
+* Our Own Naive Bayes Bag-of-Words: 		    71.72% test accuracy
 * Linear Discriminant Analysis: 	    72.38% test accuracy
 * Quadratic Discriminant Analysis: 	    90.23% test accuracy
     * Optimal number of best features: 250
@@ -74,7 +74,7 @@ Results for predicting between (1 or 2 stars) and (4 or 5 stars) (3 star reviews
 
 
 
-* Naive Bayes Bag-of-Words: 		    65% test accuracy
+* Our Own Naive Bayes Bag-of-Words: 		    65% test accuracy
 * Linear Discriminant Analysis: 	    72.95% test accuracy
 * Quadratic Discriminant Analysis: 	    86.61% test accuracy
     * Optimal number of best features: 200
@@ -88,7 +88,7 @@ Results for predicting between (1 or 2 stars) and (3, 4, or 5 stars)
 
 
 
-* Naive Bayes Bag-of-Words: 		    51.97% test accuracy
+* Our Own Naive Bayes Bag-of-Words: 		    51.97% test accuracy
 * Linear Discriminant Analysis: 	    72.38% test accuracy
 * Quadratic Discriminant Analysis: 	    79.87% test accuracy
     * Optimal number of best features: 250
