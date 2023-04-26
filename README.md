@@ -69,6 +69,7 @@ Results for predicting between 1 and 5 stars (2, 3, 4 star reviews not included)
 * Sklearn Logistic Regression: 		    96.59% test accuracy
 * Our Own Logistic Regression: 	        73.91% test accuracy
 * Linear Support Vector Classifier: 	95.77% test accuracy
+* Decision Tree Classifier: 85.55% test accuracy
 
 Results for predicting between (1 or 2 stars) and (4 or 5 stars) (3 star reviews not included):
 
@@ -83,6 +84,7 @@ Results for predicting between (1 or 2 stars) and (4 or 5 stars) (3 star reviews
 * Sklearn Logistic Regression: 		    92.27% test accuracy
 * Our Own Logistic Regression: 	        68.91% test accuracy
 * Linear Support Vector Classifier: 	92.53% test accuracy
+* Decision Tree Classifier: 78.16% test accuracy
 
 Results for predicting between (1 or 2 stars) and (3, 4, or 5 stars)
 
@@ -97,6 +99,7 @@ Results for predicting between (1 or 2 stars) and (3, 4, or 5 stars)
 * Sklearn Logistic Regression: 		    85.39% test accuracy
 * Our Own Logistic Regression: 	        70.45% test accuracy
 * Linear Support Vector Classifier: 	85.82% test accuracy
+* Decision Tree Classifier: 71.13% test accuracy
 
 Neural Models:
 
