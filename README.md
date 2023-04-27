@@ -1,5 +1,7 @@
 **Title**: Analyzing Sentiment in Yelp Reviews
 
+**Contributors**: George Bikhazi, Aditya Chenji, Bartosz Mamro
+
 **Abstract**: Our final project for DS4400 involved the analysis of sentiment in the Yelp reviews dataset. The dataset consists of text reviews, usually a few sentences long, and a "star" category reflecting how many stars the user assigned to the business they visited. We employed various models to attempt to predict the star category, including Naive Bayes, Logistic Regression, and LDA/QDA models, as well as various neural models. Overall, we found some interesting results with some high accuracy scores among certain models.
 
 **Introduction:**
