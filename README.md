@@ -50,7 +50,7 @@ The neural models were trained on subsets of the entire dataset, so they might e
 
 Example `build_subset()` output:
 
-<div align=center><img src='./figures/review_distribution.png' width="500"></div>
+<div align=center><img src='./figures/build_distribution.png' width="500"></div>
 
 
 Various statistical models were evaluated, namely Naive Bayes, Logistic Regression, KNN, LDA, QDA, and SVM. For these models we used implementations provided by the [scikit-learn](https://scikit-learn.org/) library and in some cases also wrote up our own implementations (this was done for the Naive Bayes model and the Logistic Regression model). These models are all light-weight and were run locally on our personal machines.
