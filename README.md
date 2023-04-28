@@ -112,6 +112,15 @@ We evaluated the neural models on the task of multiclass classification, such th
 * CNN: 			    86% test accuracy
 * Fine-tuned BERT: 	64.4% test accuracy
 
+Here is the accuracy curve for the CNN:
+
+<div align=center><img src='./neural/cnn/fig2.png' width="500"></div>
+
+Here is the loss curve for the CNN:
+
+<div align=center><img src='./neural/cnn/fig2.png' width="500"></div>
+
+
 **Discussion:**
 
 Overall, the test accuracies for every single model were above 50%, which is a very good result, especially considering how volatile an NLP dataset can be. Of particular success were the support vector classifier, sklearn’s logistic regression, and quadratic discriminant analysis. Each of the models performed best when the extreme star ratings of 1 and 5 only were considered, with greater drop off in performance as star ratings of 2 and 4, and eventually 3 were added. In the case where all 5 star ratings were used, the CNN model actually outperformed the statistical models, even though the statistical models had those star ratings grouped for a binary classification. However, the drop in the accuracy of the statistical models in that case could be attributed to the fact that it is difficult to determine whether a review with a star review of 3 is positive or negative. 
