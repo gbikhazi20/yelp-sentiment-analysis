@@ -118,7 +118,7 @@ Here is the accuracy curve for the CNN:
 
 Here is the loss curve for the CNN:
 
-<div align=center><img src='./neural/cnn/fig2.png' width="500"></div>
+<div align=center><img src='./neural/cnn/fig1.png' width="500"></div>
 
 
 **Discussion:**
