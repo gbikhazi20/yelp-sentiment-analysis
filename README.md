@@ -46,7 +46,12 @@ The following chart displays review frequencies for each category on a randomly 
 
 The neural models were trained on subsets of the entire dataset, so they might experience some bias as a result of the skewed distribution. The statistical models, not needing as much data, were trained on subsets of `data/yelp_academic_dataset_review_50k.txt`. Some of these subsets were built out using the `build_subset()` function which is able to produce versions of the dataset with balanced review frequencies for each category.
 
-`build_subset()` allowed us to build different versions of the dataset with different distributions. It also allowed us to create datasets with any combination of review categories, e.g. only 1 and 5-star reviews, only 1, 2, 4, and 5- star reviews, etc. We tested our models accordingly, either predicting between two groups (1 and 5 stars, 1 or 2 and 4 or 5 stars, etc.) or multiple.
+`build_subset()` allowed us to build different versions of the dataset with different distributions. It also allowed us to create datasets with any combination of review categories, e.g. only 1 and 5-star reviews, only 1, 2, 4, and 5- star reviews, etc. We tested our models accordingly, either predicting between two groups (1 and 5 stars, 1 or 2 and 4 or 5 stars, etc.) or multiple. 
+
+Example `build_subset()` output:
+
+<div align=center><img src='./figures/review_distribution.png' width="500"></div>
+
 
 Various statistical models were evaluated, namely Naive Bayes, Logistic Regression, KNN, LDA, QDA, and SVM. For these models we used implementations provided by the [scikit-learn](https://scikit-learn.org/) library and in some cases also wrote up our own implementations (this was done for the Naive Bayes model and the Logistic Regression model). These models are all light-weight and were run locally on our personal machines.
 
